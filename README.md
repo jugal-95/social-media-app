@@ -1,12 +1,62 @@
-# React + Vite
+# 📱 Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic social media app I made using React and Firebase as part of an SDE assignment.
 
-Currently, two official plugins are available:
+The main idea was to allow users to sign up, create a simple profile, make text-based posts, and like other posts in a global feed. It’s a simple frontend + Firebase project built in a short time but helped me understand user auth, route protection, and working with Firestore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Link
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [https://social-media-app-jade-chi.vercel.app](https://social-media-app-jade-chi.vercel.app)
+
+---
+
+## 🔧 Features
+
+- User signup and login using Firebase Auth
+- Profile setup after signup (name and bio)
+- Create text-only posts
+- Global feed shows all posts (latest on top)
+- Like button (no limit)
+- Logout and protected routes
+
+---
+
+## 🛠 Stack Used
+
+- React (with Vite)
+- Firebase Authentication
+- Firestore (for users and posts)
+- React Router DOM
+
+---
+
+## 💻 How to Run
+
+```bash
+git clone https://github.com/jugal-95/social-media-app.git
+cd social-media-app
+npm install
+npm run dev
+
+To make it work, you’ll need your own Firebase config inside src/firebase/config.js.
+
+📂 Folder Structure
+src/
+├── pages/
+├── context/
+├── firebase/
+├── App.jsx
+└── main.jsx
+
+👨‍💻 About
+My name is Jugraj Singh, currently a student at Thapar. This was a hands-on project to improve my frontend + Firebase skills.
+It’s basic but covers user auth, Firestore usage, and deployment.
+
+
+
+
+
+
+
